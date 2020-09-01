@@ -1,0 +1,24 @@
+{
+    "label": "Open IP",
+    "name": "openip_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "registration_section_option": [
+        ["contact_user", "{{ username }}"],
+        ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "identify_section_options": [
+        ["match_header", "sip:{{ username }}@{{ wazo_uc_stack_ip_address }}:5060"]
+    ]
+}

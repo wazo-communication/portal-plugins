@@ -1,0 +1,10 @@
+{
+    "total": 1,
+    "items": [
+        {
+            "name": "openip",
+            "version": "0.1",
+            "slug": "openipv1"
+        }
+    ]
+}
