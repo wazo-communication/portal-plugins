@@ -8,5 +8,8 @@
         ["expiration", "60"],
         ["line", "yes"],
         ["server_uri", "sip:voip.myopenip.fr:5060"]
+    ],
+    "identify_section_options": [
+        ["match", "voip.myopenip.fr"]
     ]
 }
