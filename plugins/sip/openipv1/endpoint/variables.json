@@ -25,16 +25,6 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
-        },
-        {
-            "name": "wazo_uc_stack_ip_address",
-            "label": [
-                {"language": "fr_CA", "value": "Adress IP ou hostname du stack Wazo UC"},
-                {"language": "fr_FR", "value": "Adress IP ou hostname du stack Wazo UC"},
-                {"language": "en_US", "value": "IP address or hostname of the Wazo UC stack"}
-            ],
-            "required": true,
-            "default": "{{ wazo_uc_stack_public_ip_address }}"
         }
     ]
 }
