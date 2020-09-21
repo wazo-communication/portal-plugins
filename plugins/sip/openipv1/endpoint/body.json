@@ -14,7 +14,7 @@
         ["username", "{{ username }}"],
         ["password", "{{ password }}"]
     ],
-    "identify_section_options": [
-        ["match_header", "sip:{{ username }}@{{ wazo_uc_stack_ip_address }}:5060"]
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@voip.myopenip.fr:5060"]
     ]
 }
