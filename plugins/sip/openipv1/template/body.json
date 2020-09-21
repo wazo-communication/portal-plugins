@@ -2,8 +2,7 @@
     "name": "openip_tpl_{{ tenant_uuid }}",
     "label": "OpenIP trunk",
     "endpoint_section_options": [
-        ["identify_by", "header,auth_username,username"],
-        ["endpoint_identifier_order", "header,auth_username,username"]
+        ["identify_by", "header,auth_username,username"]
     ],
     "registration_section_options": [
         ["expiration", "60"],
