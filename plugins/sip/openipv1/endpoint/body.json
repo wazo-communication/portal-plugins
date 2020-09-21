@@ -10,10 +10,6 @@
         ["username", "{{ username }}"],
         ["password", "{{ password }}"]
     ],
-    "auth_section_options": [
-        ["username", "{{ username }}"],
-        ["password", "{{ password }}"]
-    ],
     "outbound_auth_section_options": [
         ["username", "{{ username }}"],
         ["password", "{{ password }}"]
