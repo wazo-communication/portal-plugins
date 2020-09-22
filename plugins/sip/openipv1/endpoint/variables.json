@@ -3,7 +3,9 @@
         {
             "name": "label",
             "label": [
-                {"language": "fr_CA", "value": "Étiquette"}
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
             ],
             "required": true,
             "default": "Open IP"
