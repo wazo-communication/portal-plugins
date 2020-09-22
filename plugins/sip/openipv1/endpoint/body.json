@@ -18,6 +18,6 @@
         ["contact", "sip:{{ username }}@voip.myopenip.fr:5060"]
     ],
     "identify_section_options": [
-        ["match_header", "Contact: <sip:MhPPGODqPQ9wVz8d@.*>"]
+        ["match_header", "Contact: /<sip:{{ username }}@.*>/"]
     ]
 }
