@@ -1,5 +1,5 @@
 {
-    "label": "Open IP",
+    "label": "{{ label }}",
     "name": "openip_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
     "endpoint_section_options": [
