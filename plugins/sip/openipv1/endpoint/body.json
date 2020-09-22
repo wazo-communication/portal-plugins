@@ -2,13 +2,19 @@
     "label": "Open IP",
     "name": "openip_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"]
+    ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
         ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
-        ["password", "{{ password }}"]
+        ["password", "{{ password }}"],
+        ["expiration", "60"],
+        ["line", "yes"],
+        ["server_uri", "sip:voip.myopenip.fr:5060"]
     ],
     "outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -18,6 +24,7 @@
         ["contact", "sip:{{ username }}@voip.myopenip.fr:5060"]
     ],
     "identify_section_options": [
-        ["match_header", "Contact: /<sip:{{ username }}@.*>/"]
+        ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
+        ["match", "voip.myopenip.fr"]
     ]
 }
