@@ -2,7 +2,7 @@
     "label": "Open IP",
     "name": "openip_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
-    "registration_section_option": [
+    "registration_section_options": [
         ["contact_user", "{{ username }}"],
         ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"]
     ],
