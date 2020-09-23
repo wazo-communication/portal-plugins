@@ -1,5 +1,5 @@
 {
-    "total": 1,
+    "total": 2,
     "items": [
         {
             "name": "openip",
@@ -9,6 +9,15 @@
             "country": "France",
             "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
             "logo": "https://support.wazo.io/hc/article_attachments/360033055452/Logo-openip-petit.jpg"
+        },
+        {
+            "name": "voipms",
+            "version": "0.1",
+            "slug": "voipmsv1",
+            "url": "https://voip.ms",
+            "country": "Canada",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://wiki.voip.ms/w/images/thumb/1/1f/Logo-VoIPms-light.png/800px-Logo-VoIPms-light.png"
         }
     ]
 }
