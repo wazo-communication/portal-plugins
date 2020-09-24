@@ -4,7 +4,8 @@
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": ["{{ global_sip_template_uuid }}", "{{ registration_trunk_sip_template_uuid }}"],
     "endpoint_section_options": [
-        ["identify_by", "header,auth_username,username"]
+        ["identify_by", "header,auth_username,username"],
+        ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],

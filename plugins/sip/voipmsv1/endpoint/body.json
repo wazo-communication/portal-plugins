@@ -7,7 +7,8 @@
         ["identify_by", "header,auth_username,username"],
         ["from_user", "{{ username }}"],
         ["rewrite_contact", "yes"],
-        ["send_rpid", "yes"]
+        ["send_rpid", "yes"],
+        ["allow", "!all,ulaw"]
     ],
     "registration_section_options": [
         ["client_uri", "sip:{{ username }}@{{ server  }}:5060"],
