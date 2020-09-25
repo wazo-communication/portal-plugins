@@ -2,7 +2,7 @@
     "label": "{{ label }}",
     "name": "openip_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
-    "templates": ["{{ global_sip_template_uuid }}", "{{ registration_trunk_sip_template_uuid }}"],
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
         ["identify_by", "header,auth_username,username"],
         ["allow", "!all,alaw"]
