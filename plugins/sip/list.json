@@ -8,7 +8,8 @@
             "url": "https://www.openip.fr",
             "country": "FR",
             "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
-            "logo": "https://support.wazo.io/hc/article_attachments/360033055452/Logo-openip-petit.jpg"
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/openipv1/logo.svg",
+            "mainColor": "#E4003A"
         },
         {
             "name": "VoIP.ms",
@@ -17,7 +18,8 @@
             "url": "https://voip.ms",
             "country": "CA",
             "url_doc": "https://support.wazo.io",
-            "logo": "https://wiki.voip.ms/w/images/thumb/1/1f/Logo-VoIPms-light.png/800px-Logo-VoIPms-light.png"
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/voipmsv1/logo.svg",
+            "mainColor": "#E1382D"
         }
     ]
 }
