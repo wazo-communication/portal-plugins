@@ -2,7 +2,7 @@
     "total": 2,
     "items": [
         {
-            "name": "openip",
+            "name": "OpenIP",
             "version": "0.1",
             "slug": "openipv1",
             "url": "https://www.openip.fr",
@@ -11,7 +11,7 @@
             "logo": "https://support.wazo.io/hc/article_attachments/360033055452/Logo-openip-petit.jpg"
         },
         {
-            "name": "voipms",
+            "name": "VoIP.ms",
             "version": "0.1",
             "slug": "voipmsv1",
             "url": "https://voip.ms",
