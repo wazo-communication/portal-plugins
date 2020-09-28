@@ -12,6 +12,16 @@
             "mainColor": "#E4003A"
         },
         {
+            "name": "Unyc",
+            "version": "0.1",
+            "slug": "unycv1",
+            "url": "https://unyc.io",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/unycv1/logo.svg",
+            "mainColor": "#E1382D"
+        },
+        {
             "name": "VoIP.ms",
             "version": "0.1",
             "slug": "voipmsv1",
