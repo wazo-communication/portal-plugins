@@ -19,7 +19,7 @@
             "country": "FR",
             "url_doc": "https://support.wazo.io",
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/unycv1/logo.svg",
-            "mainColor": "#E1382D"
+            "mainColor": "#FFFFFF"
         },
         {
             "name": "VoIP.ms",
