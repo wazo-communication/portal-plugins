@@ -5,7 +5,7 @@
             "name": "Alphalink",
             "version": "0.1",
             "slug": "alphalinkv1",
-            "url": "https://www.alphalink.fr",
+            "url": "http://www.alphalink.fr",
             "country": "FR",
             "url_doc": "https://support.wazo.io",
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/alphalinkv1/logo.svg",
