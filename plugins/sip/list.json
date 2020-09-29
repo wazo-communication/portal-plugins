@@ -22,6 +22,16 @@
             "mainColor": "#E4003A"
         },
         {
+            "name": "Signalwire",
+            "version": "0.1",
+            "slug": "signalwirev1",
+            "url": "https://signalwire.com",
+            "country": "US",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/signalwirev1/logo.svg",
+            "mainColor": "#000000"
+        },
+        {
             "name": "Unyc",
             "version": "0.1",
             "slug": "unycv1",
