@@ -5,16 +5,15 @@
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
         ["identify_by", "header,username"],
-        ["from_domain", "alphalink.fr"],
-        ["outbound_proxy", "sip:alphalink.fr\;lr"],
+        ["from_domain", "sip3.openvno.net"],
+        ["outbound_proxy", "sip:sip3.openvno.net\;lr"],
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
-        ["contact_user", "{{ username }}"],
-        ["client_uri", "sip:{{ username }}@alphalink.fr:5060"],
+        ["client_uri", "sip:{{ username }}@sip3.openvno.net:5060"],
         ["expiration", "600"],
         ["line", "yes"],
-        ["server_uri", "sip:alphalink.fr:5060"]
+        ["server_uri", "sip:sip3.openvno.net:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -25,10 +24,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@alphalink.fr:5060"]
+        ["contact", "sip:{{ username }}@sip3.openvno.net:5060"]
     ],
     "identify_section_options": [
         ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
-        ["match", "alphalink.fr"]
+        ["match", "sip3.openvno.net"]
     ]
 }

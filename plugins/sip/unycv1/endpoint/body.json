@@ -10,10 +10,9 @@
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
-        ["contact_user", "{{ username }}"],
-        ["client_uri", "sip:{{ username }}@pbx.eqinoxe.com:5060"],
         ["expiration", "600"],
         ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@pbx.eqinoxe.com:5060"],
         ["server_uri", "sip:pbx.eqinoxe.com:5060"]
     ],
     "registration_outbound_auth_section_options": [
