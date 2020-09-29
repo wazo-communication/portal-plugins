@@ -22,6 +22,16 @@
             "mainColor": "#E4003A"
         },
         {
+            "name": "OVH Telecom",
+            "version": "0.1",
+            "slug": "ovhtelecomv1",
+            "url": "https://www.ovhtelecom.fr",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io/",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/ovhtelecomv1/logo.svg",
+            "mainColor": "#33acff"
+        },
+        {
             "name": "Signalwire",
             "version": "0.1",
             "slug": "signalwirev1",
