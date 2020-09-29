@@ -59,7 +59,7 @@
             "country": "FR",
             "url_doc": "https://support.wazo.io",
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/sfrbusinessv1/logo.svg",
-            "mainColor": "#FFFFFF"
+            "mainColor": "#F2F2F2"
         },
         {
             "name": "Signalwire",
