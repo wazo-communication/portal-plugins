@@ -52,6 +52,16 @@
             "mainColor": "#33acff"
         },
         {
+            "name": "SFR Business",
+            "version": "0.1",
+            "slug": "sfrbusinessv1",
+            "url": "https://www.sfrbusiness.fr/",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/sfrbusinessv1/logo.svg",
+            "mainColor": "#FFFFFF"
+        },
+        {
             "name": "Signalwire",
             "version": "0.1",
             "slug": "signalwirev1",

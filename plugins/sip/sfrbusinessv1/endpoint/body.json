@@ -1,10 +1,12 @@
 {
     "label": "{{ label }}",
-    "name": "linkt_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "name": "sfrbusiness_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
     "endpoint_section_options": [
-        ["from_domain", "siptrunk.linkt.fr"],
+        ["send_pai", "no"],
+        ["direct_media", "no"],
+        ["send_diversion", "no"],
         ["allow", "!all,alaw"]
     ],
     "outbound_auth_section_options": [
@@ -12,9 +14,9 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@siptrunk.linkt.fr:5060"]
+        ["contact", "sip:{{ username }}@{{ domain }}:5060"]
     ],
     "identify_section_options": [
-        ["match", "siptrunk.linkt.fr"]
+        ["match", "{{ domain }}"]
     ]
 }
