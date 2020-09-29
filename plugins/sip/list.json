@@ -12,6 +12,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Linkt",
+            "version": "0.1",
+            "slug": "linktv1",
+            "url": "https://www.linkt.fr",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/linktv1/logo.svg",
+            "mainColor": "#021A31"
+        },
+        {
             "name": "OpenIP",
             "version": "0.1",
             "slug": "openipv1",
