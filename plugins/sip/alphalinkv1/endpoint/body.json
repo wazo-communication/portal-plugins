@@ -10,9 +10,9 @@
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
-        ["client_uri", "sip:{{ username }}@sip3.openvno.net:5060"],
         ["expiration", "600"],
         ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@sip3.openvno.net:5060"],
         ["server_uri", "sip:sip3.openvno.net:5060"]
     ],
     "registration_outbound_auth_section_options": [

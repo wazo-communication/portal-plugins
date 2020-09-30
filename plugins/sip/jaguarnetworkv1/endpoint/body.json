@@ -8,7 +8,6 @@
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
-        ["contact_user", "{{ username }}"],
         ["expiration", "60"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@voip.janguarnetwork.fr:5060"],
