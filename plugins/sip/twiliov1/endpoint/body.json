@@ -1,0 +1,20 @@
+{
+    "label": "{{ label }}",
+    "name": "twilio_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}", "uuid": "{{ twilio_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["allow", "!all,ulaw,alaw"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ domain }}:5060"]
+    ],
+    "identify_section_options": [
+        ["match_header", "X-Twilio-AccountSid: {{ accountSID }}"],
+        ["match", "{{ domain }}"]
+    ]
+}

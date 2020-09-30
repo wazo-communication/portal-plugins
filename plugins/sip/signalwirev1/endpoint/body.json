@@ -27,9 +27,9 @@
         ["contact", "sip:{{ username }}.sip.signalwire.com:5060"]
     ],
     "identify_section_options": [
-        ["match", "159.65.244.171"]
-        ["match", "178.128.235.81"]
-        ["match", "104.248.176.184"]
+        ["match", "159.65.244.171"],
+        ["match", "178.128.235.81"],
+        ["match", "104.248.176.184"],
         ["match", "45.32.95.52"]
     ]
 }

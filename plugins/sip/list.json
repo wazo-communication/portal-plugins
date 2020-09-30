@@ -72,6 +72,16 @@
             "mainColor": "#000000"
         },
         {
+            "name": "Twilio",
+            "version": "0.1",
+            "slug": "twiliov1",
+            "url": "https://twilio.com",
+            "country": "US",
+            "url_doc": "https://support.wazo.io",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/twiliov1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Unyc",
             "version": "0.1",
             "slug": "unycv1",
