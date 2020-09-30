@@ -27,6 +27,21 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur SIP"},
+                {"language": "fr_FR", "value": "Serveur SIP"},
+                {"language": "en_US", "value": "SIP server"}
+            ],
+            "required": true,
+            "default": "sip.openvno.net",
+            "choices":[
+                "sip.openvno.net",
+                "sip2.openvno.net",
+                "sip3.openvno.net"
+            ]
         }
     ]
 }
