@@ -12,7 +12,6 @@
     "registration_section_options": [
         ["expiration", "1800"],
         ["line", "yes"],
-        ["endpoint", "alphalink_trunk_{{ tenant_uuid }}_{{ suffix }}"],
         ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
         ["server_uri", "sip:{{ server }}:5060"]
     ],
