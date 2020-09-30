@@ -9,7 +9,6 @@
     ],
     "registration_section_options": [
         ["expiration", "1800"],
-        ["line", "yes"],
         ["client_uri", "sip:{{ username }}@voip.janguarnetwork.fr:5060"],
         ["server_uri", "sip:voip.jaguarnetwork.fr:5060"]
     ],

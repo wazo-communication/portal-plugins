@@ -9,9 +9,9 @@
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
-        ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"],
         ["expiration", "60"],
         ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"],
         ["server_uri", "sip:voip.myopenip.fr:5060"]
     ],
     "registration_outbound_auth_section_options": [
