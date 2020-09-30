@@ -7,7 +7,7 @@
         ["identify_by", "header,username"],
         ["from_domain", "{{ server }}"],
         ["send_pai", "yes"],
-        ["allow", "!all,alaw,g722"]
+        ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
         ["expiration", "1800"],
