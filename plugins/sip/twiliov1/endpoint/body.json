@@ -15,7 +15,7 @@
     ],
     "identify_section_options": [
         ["match_header", "X-Twilio-AccountSid: {{ accountSID }}"],
-        ["match", "{{ domain }}.{{ server }}"]
+        ["match", "{{ domain }}.{{ server }}"],
         ["match", "54.172.60.0"],
         ["match", "54.172.60.1"],
         ["match", "54.172.60.2"],
