@@ -29,20 +29,20 @@
             "required": true
         },
         {
-            "name": "domain",
-            "label": [
-                {"language": "fr_CA", "value": "Serveur Proxy"},
-                {"language": "fr_FR", "value": "Serveur Proxy"},
-                {"language": "en_US", "value": "Proxy Server"}
-            ],
-            "required": true
-        },
-        {
             "name": "accountSID",
             "label": [
                 {"language": "fr_CA", "value": "Compte SID"},
                 {"language": "fr_FR", "value": "Compte SID"},
                 {"language": "en_US", "value": "Account SID"}
+            ],
+            "required": true
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Nom de domaine"},
+                {"language": "fr_FR", "value": "Nom de domaine"},
+                {"language": "en_US", "value": "Termination name"}
             ],
             "required": true
         },
@@ -55,14 +55,14 @@
             ],
             "required": true,
             "default": "pstn.us1.twilio.com",
-            "choices":[
-                pstn.us2.twilio.com
-                pstn.ie1.twilio.com
-                pstn.de1.twilio.com
-                pstn.br1.twilio.com
-                pstn.sg1.twilio.com
-                pstn.jp1.twilio.com
-                pstn.au1.twilio.com
+            "choices": [
+                "pstn.us2.twilio.com",
+                "pstn.ie1.twilio.com",
+                "pstn.de1.twilio.com",
+                "pstn.br1.twilio.com",
+                "pstn.sg1.twilio.com",
+                "pstn.jp1.twilio.com",
+                "pstn.au1.twilio.com"
             ]
         }
     ]
