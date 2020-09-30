@@ -7,7 +7,7 @@
             "slug": "alphalinkv1",
             "url": "http://www.alphalink.fr",
             "country": "FR",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/alphalinkv1/logo.svg",
             "mainColor": "#4D4C4F"
         },
@@ -17,7 +17,7 @@
             "slug": "jaguarnetworkv1",
             "url": "https://www.jaguar-network.com/",
             "country": "FR",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/jaguarnetworkv1/logo.svg",
             "mainColor": "#212840"
         },
@@ -27,7 +27,7 @@
             "slug": "linktv1",
             "url": "https://www.linkt.fr",
             "country": "FR",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/linktv1/logo.svg",
             "mainColor": "#021A31"
         },
@@ -47,7 +47,7 @@
             "slug": "ovhtelecomv1",
             "url": "https://www.ovhtelecom.fr",
             "country": "FR",
-            "url_doc": "https://support.wazo.io/",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/ovhtelecomv1/logo.svg",
             "mainColor": "#33acff"
         },
@@ -57,7 +57,7 @@
             "slug": "sfrbusinessv1",
             "url": "https://www.sfrbusiness.fr/",
             "country": "FR",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/sfrbusinessv1/logo.svg",
             "mainColor": "#F2F2F2"
         },
@@ -67,7 +67,7 @@
             "slug": "signalwirev1",
             "url": "https://signalwire.com",
             "country": "US",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/signalwirev1/logo.svg",
             "mainColor": "#000000"
         },
@@ -77,7 +77,7 @@
             "slug": "twiliov1",
             "url": "https://twilio.com",
             "country": "US",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/twiliov1/logo.svg",
             "mainColor": "#F2F2F2"
         },
@@ -87,7 +87,7 @@
             "slug": "unycv1",
             "url": "https://unyc.io",
             "country": "FR",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/unycv1/logo.svg",
             "mainColor": "#000000"
         },
@@ -97,7 +97,7 @@
             "slug": "voipmsv1",
             "url": "https://voip.ms",
             "country": "CA",
-            "url_doc": "https://support.wazo.io",
+            "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
         }
