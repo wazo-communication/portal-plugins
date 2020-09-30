@@ -6,7 +6,7 @@
     "endpoint_section_options": [
         ["identify_by", "header,username"],
         ["from_domain", "pbx.eqinoxe.com"],
-        ["outbound_proxy", "sip:sippbx.eqinoxe.com\;lr"],
+        ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
