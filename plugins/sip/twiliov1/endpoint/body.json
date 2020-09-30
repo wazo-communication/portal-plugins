@@ -11,10 +11,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@{{ domain }}:5060"]
+        ["contact", "sip:{{ username }}@{{ domain }}.{{ server }}:5060"]
     ],
     "identify_section_options": [
         ["match_header", "X-Twilio-AccountSid: {{ accountSID }}"],
-        ["match", "{{ domain }}"]
+        ["match", "{{ domain }}.{{ server }}"]
     ]
 }

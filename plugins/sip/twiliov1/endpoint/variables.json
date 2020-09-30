@@ -45,6 +45,25 @@
                 {"language": "en_US", "value": "Account SID"}
             ],
             "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur"},
+                {"language": "fr_FR", "value": "Serveur"},
+                {"language": "en_US", "value": "Server"}
+            ],
+            "required": true,
+            "default": "pstn.us1.twilio.com",
+            "choices":[
+                pstn.us2.twilio.com
+                pstn.ie1.twilio.com
+                pstn.de1.twilio.com
+                pstn.br1.twilio.com
+                pstn.sg1.twilio.com
+                pstn.jp1.twilio.com
+                pstn.au1.twilio.com
+            ]
         }
     ]
 }
