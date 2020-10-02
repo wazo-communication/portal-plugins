@@ -82,6 +82,16 @@
             "mainColor": "#000000"
         },
         {
+            "name": "Telnyx",
+            "version": "0.1",
+            "slug": "telnyxv1",
+            "url": "https://telnyx.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/telnyxv1/logo.svg",
+            "mainColor": "#14314a"
+        },
+        {
             "name": "Twilio",
             "version": "0.1",
             "slug": "twiliov1",
