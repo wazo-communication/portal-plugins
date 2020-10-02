@@ -52,6 +52,16 @@
             "mainColor": "#33acff"
         },
         {
+            "name": "Sewan",
+            "version": "0.1",
+            "slug": "sewanv1",
+            "url": "https://www.sewan.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/sewanv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "SFR Business",
             "version": "0.1",
             "slug": "sfrbusinessv1",
