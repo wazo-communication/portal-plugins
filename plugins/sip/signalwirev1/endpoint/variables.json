@@ -27,6 +27,15 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
-        }
+        },
+        {
+            "name": "sip_uri",
+            "label": [
+                {"language": "fr_CA", "value": "URI Sip"},
+                {"language": "fr_FR", "value": "URI Sip"},
+                {"language": "en_US", "value": "Sip URI"}
+            ],
+            "required": true
+        },
     ]
 }

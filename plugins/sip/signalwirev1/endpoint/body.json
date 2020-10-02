@@ -11,8 +11,8 @@
         ["allow", "!all,ulaw,g722"]
     ],
     "registration_section_options": [
-        ["client_uri", "sip:{{ username }}@{{ username }}.sip.signalwire.com:5060"],
-        ["server_uri", "sip:{{ username }}.sip.signalwire.com:5060"]
+        ["client_uri", "sip:{{ username }}@{{ sip_uri }}.sip.signalwire.com:5060"],
+        ["server_uri", "sip:{{ sip_uri }}.sip.signalwire.com:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -24,9 +24,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}.sip.signalwire.com:5060"]
+        ["contact", "sip:{{ sip_uri }}.sip.signalwire.com:5060"]
     ],
     "identify_section_options": [
+        ["match_header", "To: /<sip:.*@{{ sip_uri }}.sip.signalwire.com>/"],
         ["match", "159.65.244.171"],
         ["match", "178.128.235.81"],
         ["match", "104.248.176.184"],
