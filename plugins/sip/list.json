@@ -8,7 +8,7 @@
             "url": "http://www.alphalink.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/alphalinkv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/alphalinkv1/logo.svg",
             "mainColor": "#4D4C4F"
         },
         {
@@ -18,7 +18,7 @@
             "url": "https://www.jaguar-network.com/",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/jaguarnetworkv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/jaguarnetworkv1/logo.svg",
             "mainColor": "#212840"
         },
         {
@@ -28,7 +28,7 @@
             "url": "https://www.linkt.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/linktv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/linktv1/logo.svg",
             "mainColor": "#021A31"
         },
         {
@@ -38,7 +38,7 @@
             "url": "https://www.openip.fr",
             "country": "FR",
             "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/openipv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/openipv1/logo.svg",
             "mainColor": "#E4003A"
         },
         {
@@ -48,7 +48,7 @@
             "url": "https://www.ovhtelecom.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/ovhtelecomv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ovhtelecomv1/logo.svg",
             "mainColor": "#33acff"
         },
         {
@@ -58,7 +58,7 @@
             "url": "https://www.sfrbusiness.fr/",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/sfrbusinessv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/sfrbusinessv1/logo.svg",
             "mainColor": "#F2F2F2"
         },
         {
@@ -68,7 +68,7 @@
             "url": "https://signalwire.com",
             "country": "US",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/signalwirev1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/signalwirev1/logo.svg",
             "mainColor": "#000000"
         },
         {
@@ -78,7 +78,7 @@
             "url": "https://twilio.com",
             "country": "US",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/twiliov1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/twiliov1/logo.svg",
             "mainColor": "#F2F2F2"
         },
         {
@@ -88,7 +88,7 @@
             "url": "https://unyc.io",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/unycv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/unycv1/logo.svg",
             "mainColor": "#000000"
         },
         {
@@ -98,7 +98,7 @@
             "url": "https://voip.ms",
             "country": "CA",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/openip/plugins/sip/voipmsv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
         }
     ]
