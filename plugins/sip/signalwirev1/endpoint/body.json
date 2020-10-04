@@ -11,6 +11,7 @@
         ["allow", "!all,ulaw,g722"]
     ],
     "registration_section_options": [
+        ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ sip_uri }}.sip.signalwire.com:5060"],
         ["server_uri", "sip:{{ sip_uri }}.sip.signalwire.com:5060"]
     ],
