@@ -12,6 +12,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Flowroute",
+            "version": "0.1",
+            "slug": "flowroutev1",
+            "url": "http://www.flowroute.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/flowroutev1/logo.svg",
+            "mainColor": "#1b273a"
+        },
+        {
             "name": "Jaguar Network",
             "version": "0.1",
             "slug": "jaguarnetworkv1",
