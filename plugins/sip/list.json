@@ -22,6 +22,16 @@
             "mainColor": "#1b273a"
         },
         {
+            "name": "Ippi",
+            "version": "0.1",
+            "slug": "ippiv1",
+            "url": "http://www.ippi.com",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ippiv1/logo.svg",
+            "mainColor": "#0d6093"
+        },
+        {
             "name": "Jaguar Network",
             "version": "0.1",
             "slug": "jaguarnetworkv1",
