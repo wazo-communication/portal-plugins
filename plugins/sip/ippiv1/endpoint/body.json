@@ -8,7 +8,7 @@
         ["from_domain", "sip.ippi.com"],
         ["from_user", "{{ username }}"],
         ["send_pai", "yes"],
-        ["allow", "!all,alaw"]
+        ["allow", "!all,alaw,ulaw"]
     ],
     "registration_section_options": [
         ["expiration", "600"],
