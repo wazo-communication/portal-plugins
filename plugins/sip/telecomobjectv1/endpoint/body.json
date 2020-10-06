@@ -23,8 +23,7 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["qualify_frequency", "0"],
-        ["contact", "sip:{{ username }}@194.50.78.36:5060"]
+        ["contact", "sip:194.50.78.36:5060"]
     ],
     "identify_section_options": [
         ["match", "194.50.78.36"]
