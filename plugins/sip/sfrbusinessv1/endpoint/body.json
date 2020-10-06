@@ -9,12 +9,8 @@
         ["send_diversion", "no"],
         ["allow", "!all,alaw"]
     ],
-    "outbound_auth_section_options": [
-        ["username", "{{ username }}"],
-        ["password", "{{ password }}"]
-    ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@{{ domain }}:5060"]
+        ["contact", "sip:{{ domain }}:5060"]
     ],
     "identify_section_options": [
         ["match", "{{ domain }}"]
