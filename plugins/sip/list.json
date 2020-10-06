@@ -102,6 +102,16 @@
             "mainColor": "#000000"
         },
         {
+            "name": "Telecom Object",
+            "version": "0.1",
+            "slug": "telecomobjectv1",
+            "url": "https://www.telecom-object.fr/",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/telecomobjectv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Telnyx",
             "version": "0.1",
             "slug": "telnyxv1",
