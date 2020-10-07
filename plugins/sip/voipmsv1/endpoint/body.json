@@ -11,7 +11,7 @@
         ["allow", "!all,ulaw"]
     ],
     "registration_section_options": [
-        ["client_uri", "sip:{{ username }}@{{ server  }}:5060"],
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
         ["server_uri", "sip:{{ server }}:5060"]
     ],
     "registration_outbound_auth_section_options": [
