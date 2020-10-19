@@ -4,15 +4,15 @@
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
-        ["from_domain", "siptrunk.ovh.net"],
+        ["from_domain", "{{ server }}"],
         ["allow", "!all,alaw,ulaw"]
     ],
     "registration_section_options": [
         ["expiration", "1800"],
         ["retry_interval", "60"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@siptrunk.ovh.net:5060"],
-        ["server_uri", "sip:siptrunk.ovh.net:5060"]
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -23,9 +23,9 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@siptrunk.ovh.net:5060"]
+        ["contact", "sip:{{ username }}@{{ server }}:5060"]
     ],
     "identify_section_options": [
-        ["match", "siptrunk.ovh.net"]
+        ["match", "{{ server }}"]
     ]
 }

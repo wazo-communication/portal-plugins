@@ -27,6 +27,20 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Proxy SIP"},
+                {"language": "fr_FR", "value": "Proxy SIP"},
+                {"language": "en_US", "value": "Proxy SIP"}
+            ],
+            "required": true,
+            "default": "siptrunk.ovh.net",
+            "choices":[
+                "siptrunk.ovh.net",
+                "sip.ovh.fr"
+            ]
         }
     ]
 }
