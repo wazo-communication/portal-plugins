@@ -39,7 +39,12 @@
             "default": "siptrunk.ovh.net",
             "choices":[
                 "siptrunk.ovh.net",
-                "sip.ovh.fr"
+                "sip.ovh.fr",
+                "sip1.ovh.fr",
+                "sip2.ovh.fr",
+                "sip3.ovh.fr",
+                "sip4.ovh.fr",
+                "sip5.ovh.fr"
             ]
         }
     ]
