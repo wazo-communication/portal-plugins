@@ -38,7 +38,7 @@
             "required": true,
             "default": "sip.voicemeup.net",
             "choices":[
-                "sip.voicemeup.net",
+                "sip.voicemeup.net"
             ]
         }
     ]
