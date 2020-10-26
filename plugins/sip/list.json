@@ -95,7 +95,7 @@
             "name": "SFR Business",
             "version": "0.1",
             "slug": "sfrbusinessv1",
-            "url": "https://www.sfrbusiness.fr/",
+            "url": "https://www.sfrbusiness.fr",
             "country": "FR",
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/sfrbusinessv1/logo.svg",
@@ -115,7 +115,7 @@
             "name": "Telecom Object",
             "version": "0.1",
             "slug": "telecomobjectv1",
-            "url": "https://www.telecom-object.fr/",
+            "url": "https://www.telecom-object.fr",
             "country": "FR",
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/telecomobjectv1/logo.svg",
@@ -150,6 +150,16 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/unycv1/logo.svg",
             "mainColor": "#000000"
+        },
+        {
+            "name": "Voice Me Up",
+            "version": "0.1",
+            "slug": "voicemeupv1",
+            "url": "https://www.voicemeup.com",
+            "country": "CA",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voicemeupv1/logo.svg",
+            "mainColor": "#F2F2F2"
         },
         {
             "name": "VoIP.ms",
