@@ -10,6 +10,7 @@
         ["allow", "!all,ulaw"]
     ],
     "registration_section_options": [
+        ["expiration", "300"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
         ["server_uri", "sip:{{ server }}:5060"]
