@@ -14,7 +14,7 @@
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ domain }}:5070"],
         ["server_uri", "sip:{{ domain }}:5070"],
-        ["outbound_proxy", "sip:{{ server }}:5070\;lr"]
+        ["outbound_proxy", "sip:{{ server }}:5070\\;lr"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
