@@ -29,6 +29,24 @@
             "required": true
         },
         {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Domain"},
+                {"language": "fr_FR", "value": "Domain"},
+                {"language": "en_US", "value": "Domain"}
+            ],
+            "required": true
+        },
+        {
+            "name": "from_domain",
+            "label": [
+                {"language": "fr_CA", "value": "Realm"},
+                {"language": "fr_FR", "value": "Realm"},
+                {"language": "en_US", "value": "Realm"}
+            ],
+            "required": true
+        },
+        {
             "name": "server",
             "label": [
                 {"language": "fr_CA", "value": "Serveur SIP"},
