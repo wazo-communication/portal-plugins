@@ -13,7 +13,8 @@
         ["expiration", "600"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ server }}:5070"],
-        ["server_uri", "sip:{{ server }}:5070"]
+        ["server_uri", "sip:{{ server }}:5070"],
+        ["outbound_proxy", "sip:{{ server }}:5070"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
