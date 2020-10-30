@@ -29,16 +29,7 @@
             "required": true
         },
         {
-            "name": "domain",
-            "label": [
-                {"language": "fr_CA", "value": "Domain"},
-                {"language": "fr_FR", "value": "Domain"},
-                {"language": "en_US", "value": "Domain"}
-            ],
-            "required": true
-        },
-        {
-            "name": "from_domain",
+            "name": "realm",
             "label": [
                 {"language": "fr_CA", "value": "Realm"},
                 {"language": "fr_FR", "value": "Realm"},
