@@ -62,6 +62,16 @@
             "mainColor": "#021A31"
         },
         {
+            "name": "LTP Technology",
+            "version": "0.1",
+            "slug": "ltpv1",
+            "url": "http://www.ltp.mc",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ltpv1/logo.svg",
+            "mainColor": "#03062C"
+        },
+        {
             "name": "OpenIP",
             "version": "0.1",
             "slug": "openipv1",
