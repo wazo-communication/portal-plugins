@@ -40,7 +40,8 @@
             "choices":[
                 "sip.openvno.net",
                 "sip2.openvno.net",
-                "sip3.openvno.net"
+                "sip3.openvno.net",
+                "sip4.openvno.net"
             ]
         }
     ]
