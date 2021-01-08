@@ -18,6 +18,15 @@
                 {"language": "en_US", "value": "Proxy Server"}
             ],
             "required": true
+        },
+        {
+            "name": "client_id",
+            "label": [
+                {"language": "fr_CA", "value": "ID Client"},
+                {"language": "fr_FR", "value": "ID Client"},
+                {"language": "en_US", "value": "Client ID"}
+            ],
+            "required": true
         }
     ]
 }
