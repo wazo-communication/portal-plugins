@@ -62,6 +62,16 @@
             "mainColor": "#021A31"
         },
         {
+            "name": "Monaco Telecom",
+            "version": "0.1",
+            "slug": "monacotelecomv1",
+            "url": "http://www.monaco-telecom.mc",
+            "country": "MC",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/monacotelecomv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "OpenIP",
             "version": "0.1",
             "slug": "openipv1",
