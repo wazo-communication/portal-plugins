@@ -62,14 +62,14 @@
             "mainColor": "#021A31"
         },
         {
-            "name": "LTP Technology",
+            "name": "Monaco Telecom",
             "version": "0.1",
             "slug": "ltpv1",
-            "url": "http://www.ltp.mc",
+            "url": "http://www.monaco-telecom.mc",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ltpv1/logo.svg",
-            "mainColor": "#03062C"
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/monacotelecomv1/logo.svg",
+            "mainColor": "#F2F2F2"
         },
         {
             "name": "OpenIP",

@@ -1,6 +1,6 @@
 {
     "label": "{{ label }}",
-    "name": "ltp_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "name": "monacotelecom_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
@@ -9,10 +9,9 @@
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
-        ["expiration", "60"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@sip.ltp.mc:5060"],
-        ["server_uri", "sip:sip.ltp.mc:5060"]
+        ["client_uri", "sip:{{ username }}@siptrk.monaco-telecom.mc:5060"],
+        ["server_uri", "sip:siptrk.monaco-telecom.mc:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -23,10 +22,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@sip.ltp.mc:5060"]
+        ["contact", "sip:{{ username }}@siptrk.monaco-telecom.mc:5060"]
     ],
     "identify_section_options": [
         ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
-        ["match", "sip.ltp.mc"]
+        ["match", "siptrk.monaco-telecom.mc"]
     ]
 }

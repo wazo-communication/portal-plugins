@@ -8,7 +8,7 @@
                 {"language": "en_US", "value": "Label"}
             ],
             "required": true,
-            "default": "LTP Technology"
+            "default": "Monaco Telecom"
         },
         {
             "name": "username",
