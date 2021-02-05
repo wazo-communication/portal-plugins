@@ -26,5 +26,5 @@
     ],
     "aor_section_options": [
         ["contact", "sip:{{ username }}@{{ server }}:5060"]
-    ],
+    ]
 }
