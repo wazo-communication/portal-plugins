@@ -12,6 +12,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Bulk Solutions",
+            "version": "0.1",
+            "slug": "bulkv1",
+            "url": "https://www.bulkvs.com/",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/bulkv1/logo.svg",
+            "mainColor": "#303641"
+        },
+        {
             "name": "Flowroute",
             "version": "0.1",
             "slug": "flowroutev1",
