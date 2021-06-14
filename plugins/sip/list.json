@@ -208,7 +208,7 @@
             "url": "https://www.keyyo.com/fr/",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/keyyov1/logo.svg",
             "mainColor": "#F2F2F2"
         }
     ]
