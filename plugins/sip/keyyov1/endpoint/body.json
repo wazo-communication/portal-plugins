@@ -25,7 +25,7 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@keyyo:5060"]
+        ["contact", "sip:{{ username }}@keyyo.net:5060"]
     ],
     "identify_section_options": [
         ["match", "keyyo.net"]
