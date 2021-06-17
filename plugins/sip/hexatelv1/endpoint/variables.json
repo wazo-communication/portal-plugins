@@ -27,6 +27,33 @@
                 {"language": "en_US", "value": "Client ID"}
             ],
             "required": true
+        },
+        {
+            "name": "label_id",
+            "label": [
+                {"language": "fr_CA", "value": "Libele ID"},
+                {"language": "fr_FR", "value": "Libele ID"},
+                {"language": "en_US", "value": "Label ID"}
+            ],
+            "required": false
+        },
+        {
+            "name": "client_pai",
+            "label": [
+                {"language": "fr_CA", "value": "PAI Client"},
+                {"language": "fr_FR", "value": "PAI Client"},
+                {"language": "en_US", "value": "Client PAI"}
+            ],
+            "required": false
+        },
+        {
+            "name": "postal_code",
+            "label": [
+                {"language": "fr_CA", "value": "Code Postal Client"},
+                {"language": "fr_FR", "value": "Code Postal Client"},
+                {"language": "en_US", "value": "Client Postal Code"}
+            ],
+            "required": false
         }
     ]
 }

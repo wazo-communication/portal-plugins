@@ -33,7 +33,7 @@
         },
         {
             "name": "Hexatel",
-            "version": "0.1",
+            "version": "0.2",
             "slug": "hexatelv1",
             "url": "http://www.hexatel.fr",
             "country": "FR",
@@ -200,6 +200,16 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
+        },
+        {
+            "name": "Keyyo",
+            "version": "0.2",
+            "slug": "keyyov1",
+            "url": "https://www.keyyo.com/fr/",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/keyyov1/logo.svg",
+            "mainColor": "#F2F2F2"
         }
     ]
 }
