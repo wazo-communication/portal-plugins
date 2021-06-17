@@ -6,8 +6,7 @@
     "endpoint_section_options": [
         ["identify_by", "auth_username,username,ip"],
         ["allow", "!all,alaw,g729,g722"],
-        ["send_pai", "yes"],
-        ["from_user", "{{ username }}"]
+        ["send_pai", "yes"]
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
