@@ -7,7 +7,7 @@
         ["allow", "!all,alaw"],
         ["identify_by", "header,auth_username,username"],
         ["set_var", "PJSIP_HEADER(add,X-Client-Id)=label_id={{ label_id }}\\;client_id={{ client_id }}\\;client_pai={{ client_pai }}"],
-        ["set_var", "PJSIP_HEADER(add,P-Access-Network-Info )=GSTN\\;operator-specific-GI=\"98{{ postal_code }}00\"\;network-provided"]
+        ["set_var", "PJSIP_HEADER(add,P-Access-Network-Info )=GSTN\\;operator-specific-GI=\"98{{ postal_code }}00\"\\;network-provided"]
     ],
     "aor_section_options": [
         ["contact", "sip:{{ domain }}:5060"]
