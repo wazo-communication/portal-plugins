@@ -14,8 +14,8 @@
         ["contact_user", "{{ username }}"],
         ["expiration", "60"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@voip.myopenip.fr:5060"],
-        ["server_uri", "sip:voip.myopenip.fr:5060"]
+        ["client_uri", "sip:{{ username }}@voip03.myopenip.fr:5060"],
+        ["server_uri", "sip:voip03.myopenip.fr:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -26,10 +26,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@voip.myopenip.fr:5060"]
+        ["contact", "sip:{{ username }}@voip03.myopenip.fr:5060"]
     ],
     "identify_section_options": [
         ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
-        ["match", "voip.myopenip.fr"]
+        ["match", "voip03.myopenip.fr"]
     ]
 }
