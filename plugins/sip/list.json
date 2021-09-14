@@ -103,7 +103,7 @@
         },
         {
             "name": "OpenIP",
-            "version": "0.2",
+            "version": "0.3",
             "slug": "openipv1",
             "url": "https://www.openip.fr",
             "country": "FR",
