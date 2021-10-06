@@ -211,5 +211,15 @@
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
         }
+        {
+            "name": "Waycom",
+            "version": "0.1",
+            "slug": "waycomv1",
+            "url": "https://www.waycom.net",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/waycomv1/logo.svgx>
+            "mainColor": "#E1382D"
+        }
     ]
 }
