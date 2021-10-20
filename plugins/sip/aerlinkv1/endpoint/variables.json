@@ -8,7 +8,7 @@
                 {"language": "en_US", "value": "Label"}
             ],
             "required": true,
-            "default": "Alphalink"
+            "default": "Aerlink"
         },
         {
             "name": "username",
@@ -36,12 +36,12 @@
                 {"language": "en_US", "value": "SIP server"}
             ],
             "required": true,
-            "default": "sip.aerlink.net",
+            "default": "sip.aerlink.fr",
             "choices":[
-                "sip.aerlink.net",
-                "sip2.aerlink.net",
-                "sip3.aerlink.net",
-                "sip4.aerlink.net"
+                "sip.aerlink.fr",
+                "sip2.aerlink.fr",
+                "sip3.aerlink.fr",
+                "sip4.aerlink.fr"
             ]
         }
     ]
