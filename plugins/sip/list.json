@@ -1,6 +1,16 @@
 {
     "total": 2,
     "items": [
+        {    
+            "name": "Adista",
+            "version": "0.1",
+            "slug": "adistav1",
+            "url": "http://www.adista.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/adistav1/logo-adista.svg",
+            "mainColor": "#4D4C4F"
+        },
         {
             "name": "Alphalink",
             "version": "0.1",
