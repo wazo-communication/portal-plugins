@@ -220,7 +220,7 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
-        }
+        },
         {
             "name": "Waycom",
             "version": "0.1",
