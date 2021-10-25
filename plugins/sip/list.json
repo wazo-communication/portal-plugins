@@ -229,7 +229,7 @@
             "country": "FR",
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/waycomv1/logo.svg",
-            "mainColor": "#E1382D"
+            "mainColor": "#F2F2F2"
         }
     ]
 }
