@@ -6,27 +6,22 @@ import json
 import glob
 import sys
 
-def is_valid_json(data):
+def is_valid_json(file):
   try:
-    json.loads(data)
-  except ValueError:
+    json.load(file)
+  except json.JSONDecodeError:
     return False
   return True
-
-def read_file(file_path):
-  file = open(file_path, 'r')
-  content = file.read()
-  file.close()
-  return content
 
 def main():
   file_paths = glob.glob("../**/*.json", recursive=True)
   invalid_files = []
 
   for file_path in file_paths:
-    content = read_file(file_path)
-    if is_valid_json(content) == False:
+    file = open(file_path, 'r')
+    if is_valid_json(file) == False:
       invalid_files.append(file_path)
+    file.close()
 
   # Output message
   if len(invalid_files) == 0:
