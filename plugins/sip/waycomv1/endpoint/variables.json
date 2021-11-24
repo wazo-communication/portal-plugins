@@ -29,7 +29,7 @@
             "required": true
         },
         {
-            "name": "cisps",
+            "name": "csips",
             "label": [
                 {"language": "fr_CA", "value": "Platforme"},
                 {"language": "fr_FR", "value": "Plateforme"},
