@@ -12,6 +12,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Aerlink",
+            "version": "0.1",
+            "slug": "aerlinkv1",
+            "url": "http://www.aerlink.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/logo.png",
+            "mainColor": "#4D4C4F"
+        },
+        {
             "name": "Alphalink",
             "version": "0.1",
             "slug": "alphalinkv1",
@@ -220,6 +230,16 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
             "mainColor": "#E1382D"
+        },
+        {
+            "name": "Waycom",
+            "version": "0.1",
+            "slug": "waycomv1",
+            "url": "https://www.waycom.net",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/waycomv1/logo.svg",
+            "mainColor": "#F2F2F2"
         }
     ]
 }
