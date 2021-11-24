@@ -35,11 +35,7 @@
                 {"language": "fr_FR", "value": "Serveur SIP"},
                 {"language": "en_US", "value": "SIP server"}
             ],
-            "required": true,
-            "default": "109.237.250.108",
-            "choices":[
-                "109.237.250.108"
-            ]
+            "required": true
         }
     ]
 }
