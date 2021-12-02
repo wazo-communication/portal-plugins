@@ -19,6 +19,16 @@
             ],
             "required": true,
             "default": "109.0.103.20"
+        },
+        {
+            "name": "port",
+            "label": [
+                {"language": "fr_CA", "value": "Port Serveur Proxy"},
+                {"language": "fr_FR", "value": "Port Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server Port"}
+            ],
+            "required": true,
+            "default": "5060"
         }
     ]
 }

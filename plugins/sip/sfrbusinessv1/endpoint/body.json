@@ -10,7 +10,7 @@
         ["allow", "!all,alaw"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ domain }}:5060"]
+        ["contact", "sip:{{ domain }}:{{ port }}"]
     ],
     "identify_section_options": [
         ["match", "{{ domain }}"]
