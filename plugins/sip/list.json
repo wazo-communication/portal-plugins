@@ -22,6 +22,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Agence Telecom",
+            "version": "0.1",
+            "slug": "agencetelecomv1",
+            "url": "https://www.agencetelecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/agencetelecomv1/logo.png",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Alphalink",
             "version": "0.1",
             "slug": "alphalinkv1",
