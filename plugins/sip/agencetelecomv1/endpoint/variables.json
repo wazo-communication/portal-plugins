@@ -1,0 +1,44 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Agence Telecom"
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true,
+            "default": "192.168.22.100"
+        },
+        {
+            "name": "port",
+            "label": [
+                {"language": "fr_CA", "value": "Port Serveur Proxy"},
+                {"language": "fr_FR", "value": "Port Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server Port"}
+            ],
+            "required": true,
+            "default": "5060"
+        },
+        {
+            "name": "client_ref",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. Client"},
+                {"language": "fr_FR", "value": "Ref. Client"},
+                {"language": "en_US", "value": "Ref. Client"}
+            ],
+            "required": true,
+            "default": ""
+        }
+    ]
+}
