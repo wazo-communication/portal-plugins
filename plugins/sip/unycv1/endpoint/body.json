@@ -4,12 +4,14 @@
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
+        ["contact_user", "{{ username }}"],
         ["identify_by", "header,username"],
         ["from_domain", "sippbx.eqinoxe.com"],
         ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
         ["allow", "!all,alaw"]
     ],
     "registration_section_options": [
+        ["contact_user", "{{ username }}"],
         ["expiration", "600"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@pbx.eqinoxe.com:5060"],
