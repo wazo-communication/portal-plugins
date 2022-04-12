@@ -152,6 +152,16 @@
             "mainColor": "#33acff"
         },
         {
+            "name": "Phenix Partner",
+            "version": "1.0",
+            "slug": "phenixpartner1",
+            "url": "https://www.phenixpartner.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/phenixpartnerv1/Logo_Phenix.svg",
+            "mainColor": "#33acff"
+        },
+        {
             "name": "Sewan",
             "version": "0.1",
             "slug": "sewanv1",
