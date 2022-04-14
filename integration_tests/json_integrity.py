@@ -16,6 +16,16 @@ def file_to_json(file):
   return data
 
 
+def check_output_message(invalid_files, succesMessages, failedMessage):
+  if len(invalid_files) == 0:
+    print(succesMessages)
+  else:
+    print(failedMessage)
+    for invalid_file in invalid_files:
+      print('- ' + invalid_file)
+    sys.exit(2)
+
+
 # Check if files are valid JSON
 #
 def check_json_integrity():
@@ -28,14 +38,7 @@ def check_json_integrity():
       invalid_files.append(file_path.replace('..', ''))
     file.close()
 
-  # Output message
-  if len(invalid_files) == 0:
-    print('All JSON files are valid!')
-  else:
-    print('The following JSON files are invalid :')
-    for invalid_file in invalid_files:
-      print(invalid_file.replace('..', ''))
-      sys.exit(2)
+  check_output_message(invalid_files, 'All JSON files are valid!', 'The following JSON files are invalid :')
 
 
 # Check if path and slugs are valid for SIP trunk plugins
@@ -46,17 +49,11 @@ def check_sip_plugin_integrity():
   with open('../plugins/sip/list.json') as file:
     data = file_to_json(file)
     for item in data['items']:
-      pluginFilePath = f"../plugins/sip/{item['slug']}.json"
+      pluginFilePath = f"../plugins/sip/{item['slug']}"
       if not Path.is_dir(Path(pluginFilePath)):
-        invalid_plugins.append(f"{item['name']}: {pluginFilePath.replace('..', '')}")
+        invalid_plugins.append(f"{item['name']}: Slug and directory do not match ({pluginFilePath.replace('..', '')})")
 
-  if(len(invalid_plugins) == 0):
-    print('All SIP trunk plugins are valid!')
-  else:
-    print('The following SIP trunk plugins are invalid :')
-    for invalid_plugin in invalid_plugins:
-      print(invalid_plugin)
-      sys.exit(2)
+  check_output_message(invalid_plugins, 'All SIP plugins are valid!', 'The following SIP plugins are invalid :')
 
 
 def main():
