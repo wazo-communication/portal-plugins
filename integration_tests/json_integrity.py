@@ -18,11 +18,11 @@ def file_to_json(file):
 
 def check_output_message(invalid_files, succesMessages, failedMessage):
     if len(invalid_files) == 0:
-        print(succesMessages)
+        print(f"🟢 {succesMessages}")
     else:
-        print(failedMessage)
+        print(f"🔴 {failedMessage}")
         for invalid_file in invalid_files:
-            print('- ' + invalid_file)
+            print(f"- {invalid_file}")
         sys.exit(2)
 
 
