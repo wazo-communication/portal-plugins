@@ -32,6 +32,16 @@
             "mainColor": "#F2F2F2"
         },
         {
+            "name": "AllStream",
+            "version": "0.1",
+            "slug": "allstreamv1",
+            "url": "http://allstream.com/",
+            "country": "CA",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/allstreamv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Alphalink",
             "version": "0.1",
             "slug": "alphalinkv1",
