@@ -55,7 +55,7 @@ def check_sip_plugin_integrity():
             plugin_file_path = f"../plugins/sip/{item['slug']}"
             if not Path.is_dir(Path(plugin_file_path)):
                 invalid_plugins.append(
-                    f"{item['name']}: Slug and directory do not match ({plugin_file_path.replace('..', '')})"
+                    f"{item['name']}: Slug and directory do not match: {plugin_file_path.replace('..', '')} does not exist"
                 )
 
     check_output_message(
