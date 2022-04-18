@@ -33,10 +33,9 @@ def check_json_integrity():
     invalid_files = []
 
     for file_path in file_paths:
-        file = open(file_path, 'r')
-        if file_to_json(file) is False:
-            invalid_files.append(file_path.replace('..', ''))
-        file.close()
+        with open(file_path, 'r') as file_:
+            if file_to_json(file_) is False:
+                invalid_files.append(file_path.replace('..', ''))
 
     check_output_message(
         invalid_files,
