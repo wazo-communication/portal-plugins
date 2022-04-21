@@ -159,7 +159,7 @@
             "country": "FR",
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/phenixpartnerv1/logo.svg",
-            "mainColor": "#33acff"
+            "mainColor": "#F2F2F2"
         },
         {
             "name": "Sewan",
