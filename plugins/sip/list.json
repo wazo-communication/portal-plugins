@@ -153,12 +153,12 @@
         },
         {
             "name": "Phenix Partner",
-            "version": "1.0",
+            "version": "1.1",
             "slug": "phenixpartnerv1",
             "url": "https://phenix-partner.fr/",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/phenixpartnerv1/Logo_Phenix.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/phenixpartnerv1/logo.svg",
             "mainColor": "#33acff"
         },
         {
