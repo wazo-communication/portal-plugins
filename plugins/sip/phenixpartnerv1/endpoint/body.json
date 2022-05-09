@@ -7,7 +7,7 @@
         ["identify_by", "header,auth_username,username"],
         ["contact_user", "{{ username }}"],
         ["allow", "!all,alaw"],
-	["send_pai", "yes"]
+        ["send_pai", "yes"]
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
