@@ -8,7 +8,8 @@
         ["direct_media", "no"],
         ["send_diversion", "no"],
         ["allow", "!all,alaw"],
-        ["set_var", "PJSIP_HEADER(add,X-CUSTOMER-ID)={{ client_ref }}"]
+        ["set_var", "PJSIP_HEADER(add,X-CUSTOMER-ID)={{ client_ref }}"],
+        ["set_var", "PJSIP_HEADER(add,X-SBC-IP)={{ sfr_sbc }}"]
     ],
     "aor_section_options": [
         ["contact", "sip:{{ domain }}:{{ port }}"]
