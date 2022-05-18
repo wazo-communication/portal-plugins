@@ -39,6 +39,20 @@
             ],
             "required": true,
             "default": ""
+        },
+        {
+            "name": "sfr_sbc",
+            "label": [
+                {"language": "fr_CA", "value": "SBC SFR"},
+                {"language": "fr_FR", "value": "SBC SFR"},
+                {"language": "en_US", "value": "SFR SBC"}
+            ],
+            "required": true,
+            "default": "85.169.73.0",
+            "choices":[
+                "85.169.73.0",
+                "77.154.162.150"
+            ]
         }
     ]
 }
