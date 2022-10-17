@@ -52,6 +52,16 @@
             "mainColor": "#303641"
         },
         {
+            "name": "Flexnetwork",
+            "version": "1.0",
+            "slug": "flexnetworkv1",
+            "url": "https://www.flexnetwork.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/flexnetworkv1/flexnetwork-logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Flowroute",
             "version": "0.1",
             "slug": "flowroutev1",
