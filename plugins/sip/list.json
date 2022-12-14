@@ -92,6 +92,16 @@
             "mainColor": "#F2F2F2"
         },
         {
+            "name": "Inovatel",
+            "version": "0.1",
+            "slug": "inovatelv1",
+            "url": "https://www.inovatel.ca",
+            "country": "CA",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/inovatelv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "ippi",
             "version": "0.1",
             "slug": "ippiv1",
