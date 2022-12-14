@@ -13,6 +13,6 @@
         ["contact", "sip:{{ server }}"]
     ],
     "identify_section_options": [
-        ["match_header", "To: /<sip:{{ did_num }}@.*>/"],
+        ["match_header", "To: /<sip:{{ did_num }}@.*>/"]
     ]
 }
