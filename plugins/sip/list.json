@@ -93,7 +93,7 @@
         },
         {
             "name": "Inovatel",
-            "version": "0.1",
+            "version": "0.2",
             "slug": "inovatelv1",
             "url": "https://www.inovatel.ca",
             "country": [{"CA","US}],
