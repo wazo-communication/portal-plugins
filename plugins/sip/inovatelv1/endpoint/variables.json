@@ -27,11 +27,11 @@
         {
             "name": "did_num",
             "label": [
-                {"language": "fr_CA", "value": "Numero(s)"},
-                {"language": "fr_FR", "value": "Numero(s)"},
-                {"language": "en_US", "value": "Number(s)"}
+                {"language": "fr_CA", "value": "Numero(s) - Format ( .*Num1.*|.*Num2.* )"},
+                {"language": "fr_FR", "value": "Numero(s) - Format ( .*Num1.*|.*Num2.* )"},
+                {"language": "en_US", "value": "Number(s) - Format ( .*Num1.*|.*Num2.* )"}
             ],
-            "required": true
+            "required": false
         },
         {
             "name": "server",
