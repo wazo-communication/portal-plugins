@@ -72,6 +72,16 @@
             "mainColor": "#1b273a"
         },
         {
+            "name": "Groupe Convergence",
+            "version": "1.0",
+            "slug": "gconvergencev1",
+            "url": "https://www.groupe-convergence.com",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/gconvergencev1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Hexatel",
             "version": "0.2",
             "slug": "hexatelv1",
