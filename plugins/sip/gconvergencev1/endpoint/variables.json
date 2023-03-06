@@ -13,9 +13,9 @@
         {
             "name": "username",
             "label": [
-                {"language": "fr_CA", "value": "Nom d'utilisateur - sans le premier 0 !"},
-                {"language": "fr_FR", "value": "Nom d'utilisateur - sans le premier 0 !"},
-                {"language": "en_US", "value": "Username - without leading 0 !"}
+                {"language": "fr_CA", "value": "Nom d'utilisateur"},
+                {"language": "fr_FR", "value": "Nom d'utilisateur"},
+                {"language": "en_US", "value": "Username"}
             ],
             "required": true
         },
