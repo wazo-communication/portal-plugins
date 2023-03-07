@@ -12,7 +12,7 @@
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
-        ["expiration", "1800"],
+        ["expiration", "300"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@voip.groupe-convergence.net"],
         ["server_uri", "sip:voip.groupe-convergence.net"]
