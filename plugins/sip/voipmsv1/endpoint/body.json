@@ -12,7 +12,9 @@
     ],
     "registration_section_options": [
         ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
-        ["server_uri", "sip:{{ server }}:5060"]
+        ["server_uri", "sip:{{ server }}:5060"],
+        ["line", "yes"],
+        ["contact_user", "{{ username }}"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],

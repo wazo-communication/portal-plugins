@@ -273,7 +273,7 @@
         },
         {
             "name": "VoIP.ms",
-            "version": "0.1",
+            "version": "0.2",
             "slug": "voipmsv1",
             "url": "https://voip.ms",
             "country": "CA",
