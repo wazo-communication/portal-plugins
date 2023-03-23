@@ -42,6 +42,16 @@
             "mainColor": "#4D4C4F"
         },
         {
+            "name": "Bouygues Télécom",
+            "version": "1.0",
+            "slug": "btelv1",
+            "url": "https://www.bouyguestelecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/btelv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Bulk Solutions",
             "version": "0.1",
             "slug": "bulkv1",
