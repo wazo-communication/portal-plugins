@@ -18,8 +18,8 @@
             "url": "http://www.aerlink.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/logo.png",
-            "mainColor": "#4D4C4F"
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/AERLINK-300dpi.jpg",
+            "mainColor": "#F2F2F2"
         },
         {
             "name": "Agence Telecom",
