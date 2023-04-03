@@ -18,7 +18,7 @@
             "url": "http://www.aerlink.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/AERLINK-300dpi.jpg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/logo.svg",
             "mainColor": "#F2F2F2"
         },
         {
