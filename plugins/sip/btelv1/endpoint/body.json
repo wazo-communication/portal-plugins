@@ -8,6 +8,7 @@
         ["contact_user", "{{ username }}"],
         ["send_pai", "yes"],
         ["allow", "!all,alaw"],
+        ["send_diversion", "no"],
         ["set_var", "PJSIP_HEADER(add,P-Preferred-Identity)=<sip:{{ username }}@{{ server }}>"]
     ],
     "registration_section_options": [
