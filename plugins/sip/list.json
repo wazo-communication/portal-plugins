@@ -43,7 +43,7 @@
         },
         {
             "name": "Appliwave",
-            "version": "1.0",
+            "version": "1.1",
             "slug": "appliwavev1",
             "url": "http://www.appliwave.com",
             "country": "FR",
@@ -52,7 +52,7 @@
             "mainColor": "#4D4C4F"
         },
         {
-            "name": "Bouygues Télécom",
+            "name": "Bouygues T??l??com",
             "version": "1.1",
             "slug": "btelv1",
             "url": "https://www.bouyguestelecom.fr",
