@@ -11,8 +11,8 @@
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@185.217.201.183:5060"],
-        ["server_uri", "sip:185.217.201.183:5060"]
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -23,9 +23,9 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@185.217.201.183:5060"]
+        ["contact", "sip:{{ username }}@{{ server }}:5060"]
     ],
     "identify_section_options": [
-        ["match", "185.217.201.183"]
+        ["match", "{{ server }}"]
     ]
 }
