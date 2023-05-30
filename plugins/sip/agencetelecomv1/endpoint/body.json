@@ -9,7 +9,8 @@
         ["send_diversion", "no"],
         ["allow", "!all,alaw"],
         ["set_var", "PJSIP_HEADER(add,X-CUSTOMER-ID)={{ client_ref }}"],
-        ["set_var", "PJSIP_HEADER(add,X-SBC-IP)={{ sfr_sbc }}"]
+        ["set_var", "PJSIP_HEADER(add,X-SBC-IP)={{ sfr_sbc }}"],
+        ["set_var", "PJSIP_HEADER(add,X-Tenant-Trunk)={{ x_tenant_trunk }}"]
     ],
     "aor_section_options": [
         ["contact", "sip:{{ domain }}:{{ port }}"]

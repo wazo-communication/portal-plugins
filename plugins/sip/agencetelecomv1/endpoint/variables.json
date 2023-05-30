@@ -18,7 +18,11 @@
                 {"language": "en_US", "value": "Proxy Server"}
             ],
             "required": true,
-            "default": "192.168.22.100"
+            "default": "192.168.22.100",
+            "choices":[
+                "192.168.22.100",
+                "192.168.22.102"
+            ]
         },
         {
             "name": "port",
@@ -28,7 +32,11 @@
                 {"language": "en_US", "value": "Proxy Server Port"}
             ],
             "required": true,
-            "default": "5060"
+            "default": "5060",
+            "choices":[
+                "5060",
+                "5070"
+            ]
         },
         {
             "name": "client_ref",
@@ -53,6 +61,16 @@
                 "85.169.73.0",
                 "77.154.162.150"
             ]
+        },
+        {
+            "name": "x_tenant_trunk",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. X-Tenant-Trunk"},
+                {"language": "fr_FR", "value": "Ref. X-Tenant-Trunk"},
+                {"language": "en_US", "value": "Ref. X-Tenant-Trunk"}
+            ],
+            "required": false,
+            "default": ""
         }
     ]
 }
