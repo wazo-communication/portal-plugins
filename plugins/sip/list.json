@@ -72,6 +72,16 @@
             "mainColor": "#303641"
         },
         {
+            "name": "Dsnty",
+            "version": "1.0",
+            "slug": "dstnyv1",
+            "url": "https://dstny.fr",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/dstnyv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Flexnetwork",
             "version": "1.0",
             "slug": "flexnetworkv1",
@@ -180,16 +190,6 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/monacotelecomv1/logo.svg",
             "mainColor": "#F2F2F2"
-        },
-        {
-            "name": "OpenIP",
-            "version": "0.3",
-            "slug": "openipv1",
-            "url": "https://www.openip.fr",
-            "country": "FR",
-            "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/openipv1/logo.svg",
-            "mainColor": "#E4003A"
         },
         {
             "name": "OVH Telecom",
