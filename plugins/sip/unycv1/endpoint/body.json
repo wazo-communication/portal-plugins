@@ -8,10 +8,11 @@
         ["identify_by", "header,username"],
         ["from_domain", "sippbx.eqinoxe.com"],
         ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
-        ["allow", "!all,alaw"]
+        ["allow", "!all,alaw"],
+	["send_pai", "no"],
+	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)="{{ ndi }}" <sip:{{ ndi }}@sippbx.eqinoxe.com>"]
     ],
     "registration_section_options": [
-        ["contact_user", "{{ username }}"],
         ["expiration", "600"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@pbx.eqinoxe.com:5060"],

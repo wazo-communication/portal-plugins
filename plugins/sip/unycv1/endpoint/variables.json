@@ -27,6 +27,15 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "ndi",
+            "label": [
+                {"language": "fr_CA", "value": "Numéro de Désignation d'Installation (NDI)"},
+                {"language": "fr_FR", "value": "Numéro de Désignation d'Installation (NDI)"},
+                {"language": "en_US", "value": "Installation designation number"}
+            ],
+            "required": true
         }
     ]
 }
