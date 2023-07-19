@@ -10,7 +10,7 @@
         ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
         ["allow", "!all,alaw"],
 	["send_pai", "no"],
-	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)="{{ ndi }}" <sip:{{ ndi }}@sippbx.eqinoxe.com>"]
+	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sippbx.eqinoxe.com>"]
     ],
     "registration_section_options": [
         ["expiration", "600"],
