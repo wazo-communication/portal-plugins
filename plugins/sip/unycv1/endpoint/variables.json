@@ -11,6 +11,20 @@
             "default": "Unyc"
         },
         {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true,
+            "default": "pbx.vcore.eqinoxe.com",
+            "choices":[
+                "pbx.vcore.eqinoxe.com",
+                "pbx.eqinoxe.com"
+            ]
+        },
+        {
             "name": "username",
             "label": [
                 {"language": "fr_CA", "value": "Nom d'utilisateur"},

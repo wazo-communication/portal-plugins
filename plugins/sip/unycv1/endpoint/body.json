@@ -6,17 +6,17 @@
     "endpoint_section_options": [
         ["contact_user", "{{ username }}"],
         ["identify_by", "header,username"],
-        ["from_domain", "sippbx.eqinoxe.com"],
-        ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
+        ["from_domain", "sip{{ domain }}"],
+        ["outbound_proxy", "sip:sip{{ domain }}\\;lr"],
         ["allow", "!all,alaw"],
 	["send_pai", "no"],
-	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sippbx.eqinoxe.com>"]
+	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sip{{ domain }}>"]
     ],
     "registration_section_options": [
         ["expiration", "600"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@pbx.eqinoxe.com:5060"],
-        ["server_uri", "sip:sippbx.eqinoxe.com:5060"]
+        ["client_uri", "sip:{{ username }}@{{ domain }}:5060"],
+        ["server_uri", "sip:sip{{ domain }}:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
@@ -27,10 +27,10 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@pbx.eqinoxe.com:5060"]
+        ["contact", "sip:{{ username }}@{{ domain }}:5060"]
     ],
     "identify_section_options": [
         ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
-        ["match", "pbx.eqinoxe.com"]
+        ["match", "{{ domain }}"]
     ]
 }
