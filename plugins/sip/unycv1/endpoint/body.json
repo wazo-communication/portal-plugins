@@ -6,17 +6,17 @@
     "endpoint_section_options": [
         ["contact_user", "{{ username }}"],
         ["identify_by", "header,username"],
-        ["from_domain", "sip{{ domain }}"],
-        ["outbound_proxy", "sip:sip{{ domain }}\\;lr"],
+        ["from_domain", "sippbx.eqinoxe.com"],
+        ["outbound_proxy", "sip:sippbx.eqinoxe.com\\;lr"],
         ["allow", "!all,alaw"],
 	["send_pai", "no"],
-	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sip{{ domain }}>"]
+	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sippbx.eqinoxe.com>"]
     ],
     "registration_section_options": [
         ["expiration", "600"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ domain }}:5060"],
-        ["server_uri", "sip:sip{{ domain }}:5060"]
+        ["server_uri", "sip:sippbx.eqinoxe.com:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
