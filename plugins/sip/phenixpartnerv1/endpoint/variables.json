@@ -35,7 +35,8 @@
                 {"language": "fr_FR", "value": "Serveur Proxy"},
                 {"language": "en_US", "value": "Proxy Server"}
             ],
-            "required": true
+            "required": true,
+            "default": "wazo.extranet-it.fr"
         }
     ]
 }
