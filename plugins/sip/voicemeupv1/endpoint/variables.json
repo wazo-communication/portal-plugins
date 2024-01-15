@@ -38,8 +38,6 @@
             "required": true,
             "default": "sip-mtl-03.voicemeup.com",
             "choices":[
-                "sip-mtl-03.voicemeup.com",
-                "sip-mtl-04.voicemeup.com",
                 "sip-slb-cola.voicemeup.com",
                 "sip-slb-tobo.voicemeup.com"
             ]
