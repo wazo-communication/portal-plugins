@@ -303,7 +303,7 @@
         },
         {
             "name": "VoIP.ms",
-            "version": "0.2",
+            "version": "1.0",
             "slug": "voipmsv1",
             "url": "https://voip.ms",
             "country": "CA",
