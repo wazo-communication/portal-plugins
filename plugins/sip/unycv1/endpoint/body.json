@@ -6,17 +6,17 @@
     "endpoint_section_options": [
         ["contact_user", "{{ username }}"],
         ["identify_by", "header,username"],
-        ["from_domain", "sip{{ domain }}"],
-        ["outbound_proxy", "sip:sip{{ domain }}\\;lr"],
+        ["from_domain", "{{ authentification }}"],
+        ["outbound_proxy", "sip:{{ authentification }}\\;lr"],
         ["allow", "!all,alaw"],
 	["send_pai", "no"],
-	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@sip{{ domain }}>"]
+	["set_var", "PJSIP_HEADER(add,P-Asserted-Identity)=\"{{ ndi }}\" <sip:{{ ndi }}@{{ authentification }}>"]
     ],
     "registration_section_options": [
         ["expiration", "600"],
         ["line", "yes"],
         ["client_uri", "sip:{{ username }}@{{ domain }}:5060"],
-        ["server_uri", "sip:sip{{ domain }}:5060"]
+        ["server_uri", "sip:{{ authentification }}:5060"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
