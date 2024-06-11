@@ -25,6 +25,16 @@
             ]
         },
         {
+            "name": "authentification",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur d'authentification"},
+                {"language": "fr_FR", "value": "Serveur d'authentification"},
+                {"language": "en_US", "value": "Authentication server"}
+            ],
+            "required": true,
+            "default": "sippbx.eqinoxe.com"
+        },
+        {
             "name": "username",
             "label": [
                 {"language": "fr_CA", "value": "Nom d'utilisateur"},
