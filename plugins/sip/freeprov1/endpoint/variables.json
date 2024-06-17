@@ -8,7 +8,7 @@
                 {"language": "en_US", "value": "Label"}
             ],
             "required": true,
-            "default": "Jaguar Network"
+            "default": "Free PRO"
         },
         {
             "name": "username",

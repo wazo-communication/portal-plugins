@@ -112,6 +112,16 @@
             "mainColor": "#1b273a"
         },
         {
+            "name": "Free PRO",
+            "version": "1.1",
+            "slug": "freeprov1",
+            "url": "https://pro.free.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/freeprov1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Groupe Convergence",
             "version": "1.0",
             "slug": "gconvergencev1",
@@ -160,16 +170,6 @@
             "url_doc": null,
             "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ippiv1/logo.svg",
             "mainColor": "#0d6093"
-        },
-        {
-            "name": "Jaguar Network",
-            "version": "0.1",
-            "slug": "jaguarnetworkv1",
-            "url": "https://www.jaguar-network.com/",
-            "country": "FR",
-            "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/jaguarnetworkv1/logo.svg",
-            "mainColor": "#212840"
         },
         {
             "name": "Keyyo",

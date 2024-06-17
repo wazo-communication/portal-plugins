@@ -1,6 +1,6 @@
 {
     "label": "{{ label }}",
-    "name": "jaguarnetwork_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "name": "freepro_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
