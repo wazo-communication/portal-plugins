@@ -222,6 +222,16 @@
             "mainColor": "#F2F2F2"
         },
         {
+            "name": "Rubix Telecom",
+            "version": "1.0",
+            "slug": "rubixv1",
+            "url": "https://www.rubix-telecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/rubixv1/logo.svg",
+            "mainColor": "#000000"
+        },
+        {
             "name": "Sewan",
             "version": "0.1",
             "slug": "sewanv1",
