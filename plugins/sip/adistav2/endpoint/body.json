@@ -2,7 +2,7 @@
     "label": "{{ label }}",
     "name": "adista_trunk_{{ tenant_uuid }}_{{ suffix }}",
     "transport": {"uuid": "{{ transport_uuid }}"},
-    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
     "endpoint_section_options": [
         ["set_var", "PJSIP_HEADER(add,P-Charge-Info)={{ client_ref }}"],
         ["identify_by", "header"],
