@@ -1,0 +1,19 @@
+{
+    "label": "{{ label }}",
+    "name": "adista_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["set_var", "PJSIP_HEADER(add,P-Charge-Info)={{ client_ref }}"],
+        ["identify_by", "header"],
+        ["allow", "!all,alaw"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ server }}"],
+        ["qualify_frequency", "30"]
+    ],
+    "identify_section_options": [
+        ["match_header", "P-Charge-Info): {{ client_ref }}"],
+        ["endpoint", "{{ platform }}"]
+    ]
+}

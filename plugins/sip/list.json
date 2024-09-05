@@ -3,12 +3,12 @@
     "items": [
         {
             "name": "Adista",
-            "version": "0.1",
-            "slug": "adistav1",
+            "version": "2.0",
+            "slug": "adistav2",
             "url": "http://www.adista.fr",
             "country": "FR",
             "url_doc": null,
-            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/adistav1/logo-adista.svg",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/adistav2/logo-adista.svg",
             "mainColor": "#F2F2F2"
         },
         {
