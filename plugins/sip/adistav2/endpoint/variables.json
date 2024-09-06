@@ -13,7 +13,7 @@
         {
             "name": "platform",
             "label": [
-                {"language": "fr_CA", "value": "Platforme"},
+                {"language": "fr_CA", "value": "Plateforme"},
                 {"language": "fr_FR", "value": "Plateforme"},
                 {"language": "en_US", "value": "Plateform"}
             ],
