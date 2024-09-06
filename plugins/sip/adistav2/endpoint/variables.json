@@ -1,0 +1,52 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Adista"
+        },
+        {
+            "name": "platform",
+            "label": [
+                {"language": "fr_CA", "value": "Plateforme"},
+                {"language": "fr_FR", "value": "Plateforme"},
+                {"language": "en_US", "value": "Plateform"}
+            ],
+            "required": true,
+            "default": "Adista_GW1",
+            "choices":[
+                "Adista_GW1",
+                "Adista_GW2"
+            ]
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur SIP"},
+                {"language": "fr_FR", "value": "Serveur SIP"},
+                {"language": "en_US", "value": "SIP server"}
+            ],
+            "required": true,
+            "default": "212.51.161.4",
+            "choices":[
+                "212.51.161.4",
+                "212.51.161.5"
+            ]
+        },
+        {
+            "name": "client_ref",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. Client"},
+                {"language": "fr_FR", "value": "Ref. Client"},
+                {"language": "en_US", "value": "Ref. Client"}
+            ],
+            "required": true,
+            "default": ""
+        }
+    ]
+}
