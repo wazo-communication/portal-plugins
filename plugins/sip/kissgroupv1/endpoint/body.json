@@ -4,7 +4,6 @@
     "transport": {"uuid": "{{ transport_uuid }}"},
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
-        ["set_var", "PJSIP_HEADER(add,KV_INSEE)={{ client_insee }}"],
         ["identify_by", "header,username,auth_username"],
         ["contact_user", "{{ username }}"],
         ["from_domain", "{{ server }}"],
