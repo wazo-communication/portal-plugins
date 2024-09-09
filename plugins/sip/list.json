@@ -182,6 +182,16 @@
             "mainColor": "#F2F2F2"
         },
         {
+            "name": "Kissgroup",
+            "version": "0.1",
+            "slug": "kissgroupv1",
+            "url": "https://www.kissgroup.io",
+            "country": "FR",
+            "url_doc": "https://support.kissgroup.io/support/solutions",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/kissgroupv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
             "name": "Linkt",
             "version": "0.1",
             "slug": "linktv1",
