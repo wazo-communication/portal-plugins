@@ -13,7 +13,7 @@
         ["qualify_frequency", "30"]
     ],
     "identify_section_options": [
-        ["match_header", "P-Charge-Info): {{ client_ref }}"],
+        ["match_header", "P-Charge-Info: {{ client_ref }}"],
         ["endpoint", "{{ platform }}"]
     ]
 }
