@@ -39,17 +39,11 @@
             "default": "C5-PAR1-1.kissvoice.kissgroup.io",
             "choices":[
                 "C5-PAR1-1.kissvoice.kissgroup.io",
-                "C5-PAR3-1.kissvoice.kissgroup.io"
+                "C5-PAR2-1.kissvoice.kissgroup.io",
+                "C5-PAR3-1.kissvoice.kissgroup.io",
+                "C5-PAR4-1.kissvoice.kissgroup.io",
+                "C5-PAR5-1.kissvoice.kissgroup.io"
             ]
-        },
-        {
-            "name": "client_insee",
-            "label": [
-                {"language": "fr_CA", "value": "Code INSEE"},
-                {"language": "fr_FR", "value": "Code INSEE"},
-                {"language": "en_US", "value": "Local code"}
-            ],
-            "required": true
         }
     ]
 }
