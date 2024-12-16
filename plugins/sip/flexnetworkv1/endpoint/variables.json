@@ -27,6 +27,16 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "proxy",
+            "label": [
+                {"language": "fr_CA", "value": "Domaine Proxy"},
+                {"language": "fr_FR", "value": "Domaine Proxy"},
+                {"language": "en_US", "value": "Proxy Domain"}
+            ],
+            "required": true,
+            "default": "wazo.proxy.flexvno.fr"
         }
     ]
 }
