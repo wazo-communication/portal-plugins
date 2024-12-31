@@ -5,26 +5,35 @@
     "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
     "endpoint_section_options": [
         ["identify_by", "header,auth_username,username"],
-        ["allow", "!all,alaw"]
+        ["allow", "!all,alaw"],
+        ["send_pai", "no"],
+        ["from_domain", "{{ proxy }}"],
+        ["outbound_proxy", "{{ outboundproxy }}"],
+        ["contact_user", "{{ username }}"]
     ],
     "registration_section_options": [
         ["expiration", "1800"],
-        ["client_uri", "sip:{{ username }}@voip.janguarnetwork.fr:5060"],
-        ["server_uri", "sip:voip.jaguarnetwork.fr:5060"]
+        ["client_uri", "sip:{{ username }}@{{ proxy }}:5060"],
+        ["server_uri", "sip:{{ proxy }}:5060"],
+        ["line", "yes"]
     ],
     "registration_outbound_auth_section_options": [
         ["username", "{{ username }}"],
-        ["password", "{{ password }}"]
+        ["password", "{{ password }}"],
+        ["realm", "{{ proxy }}"]
     ],
     "outbound_auth_section_options": [
         ["username", "{{ username }}"],
-        ["password", "{{ password }}"]
+        ["password", "{{ password }}"],
+        ["realm", "{{ proxy }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@voip.jaguarnetwork.fr:5060"]
+        ["contact", "sip:{ username }}@{{ proxy }}:5060"],
+        ["outbound_proxy", "sip:{{ outboundproxy }}\\;lr"],
+        ["qualify_frequency", "300"]
     ],
     "identify_section_options": [
         ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
-        ["match", "voip.jaguarnetwork.fr"]
+        ["match", "{{ proxy }}"]
     ]
 }

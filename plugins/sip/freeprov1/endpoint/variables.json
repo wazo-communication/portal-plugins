@@ -27,6 +27,32 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "proxy",
+            "label": [
+                {"language": "fr_CA", "value": "Domaine Proxy"},
+                {"language": "fr_FR", "value": "Domaine Proxy"},
+                {"language": "en_US", "value": "Proxy Domain"}
+            ],
+            "required": true,
+            "default": "siprouting.trunking.as30781.net"
+        },
+        {
+            "name": "outboundproxy",
+            "label": [
+                {"language": "fr_CA", "value": "Outbound Proxy"},
+                {"language": "fr_FR", "value": "Outbound Proxy"},
+                {"language": "en_US", "value": "Outbound Proxy"}
+            ],
+            "required": true,
+            "default": "siprouting.trunking.public.par01.as30781.net",
+            "choices":[
+                "siprouting.trunking.public.par01.as30781.net",
+                "siprouting.trunking.public.mar02.as30781.net",
+                "siprouting.trunking.private.par01.as30781.net",
+                "siprouting.trunking.private.mar02.as30781.net"
+            ]
         }
     ]
 }
