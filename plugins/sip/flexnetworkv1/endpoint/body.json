@@ -8,8 +8,7 @@
         ["allow", "!all,alaw"],
         ["contact_user", "{{ username }}"],
         ["timers_sess_expires", "1800"],
-        ["timers_min_se", "1200"],
-        ["from_domain", "{{ proxy }}"]
+        ["timers_min_se", "1200"]
     ],
     "registration_section_options": [
         ["contact_user", "{{ username }}"],
