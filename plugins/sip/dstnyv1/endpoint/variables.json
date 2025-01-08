@@ -27,6 +27,23 @@
                 {"language": "en_US", "value": "Password"}
             ],
             "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur SIP"},
+                {"language": "fr_FR", "value": "Serveur SIP"},
+                {"language": "en_US", "value": "SIP server"}
+            ],
+            "required": true,
+            "default": "voip03.myopenip.fr",
+            "choices":[
+                "voip02.myopenip.fr",
+                "voip03.myopenip.fr",
+                "sbc01-fr.voice.dstny.com",
+                "sbc02-fr.voice.dstny.com",
+                "sbc03-fr.voice.dstny.com"
+            ]
         }
     ]
 }
