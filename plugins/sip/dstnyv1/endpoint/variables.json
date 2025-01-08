@@ -39,6 +39,7 @@
             "default": "voip03.myopenip.fr",
             "choices":[
                 "voip02.myopenip.fr",
+                "voip03.myopenip.fr",
                 "sbc01-fr.voice.dstny.com",
                 "sbc02-fr.voice.dstny.com",
                 "sbc03-fr.voice.dstny.com"
