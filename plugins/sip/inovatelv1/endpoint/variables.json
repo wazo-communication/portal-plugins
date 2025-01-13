@@ -44,6 +44,7 @@
             "default": "sbc1.inovatel.ca",
             "choices":[
                 "sbc1.inovatel.ca",
+                "sbc2.inovatel.ca",
                 "sbc911.inovatel.ca"
             ]
         }
