@@ -32,10 +32,10 @@
                 {"language": "en_US", "value": "SIP server"}
             ],
             "required": true,
-            "default": "212.51.161.4",
+            "default": "p-trunksgw1.voip.adista.fr",
             "choices":[
-                "212.51.161.4",
-                "212.51.161.5"
+                "p-trunksgw1.voip.adista.fr",
+                "p-trunksgw2.voip.adista.fr"
             ]
         },
         {
