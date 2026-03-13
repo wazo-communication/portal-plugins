@@ -1,0 +1,44 @@
+{
+  "label": "{{ label }}",
+  "name": "freepro_trunk_{{ tenant_uuid }}_{{ suffix }}",
+  "transport": { "uuid": "{{ transport_uuid }}" },
+  "templates": [
+    { "uuid": "{{ global_sip_template_uuid }}" },
+    { "uuid": "{{ registration_trunk_sip_template_uuid }}" }
+  ],
+  "endpoint_section_options": [
+    ["identify_by", "header,auth_username,username"],
+    ["allow", "!all,alaw"],
+    ["from_domain", "{{ server }}"],
+    ["contact_user", "{{ username }}"],
+    ["force_rport", "yes"],
+    ["rtp_symmetric", "yes"],
+    ["direct_media", "no"],
+    ["send_pai", "yes"],
+    ["send_rpid", "yes"]
+  ],
+  "registration_section_options": [
+    ["expiration", "1800"],
+    ["client_uri", "sip:{{ username }}@{{ server }}"],
+    ["server_uri", "sip:{{ server }}"],
+    ["line", "yes"],
+    ["contact_user", "{{ username }}"]
+  ],
+  "registration_outbound_auth_section_options": [
+    ["username", "{{ username }}"],
+    ["password", "{{ password }}"]
+  ],
+  "outbound_auth_section_options": [
+    ["username", "{{ username }}"],
+    ["password", "{{ password }}"]
+  ],
+  "aor_section_options": [
+    ["contact", "sip:{{ username }}@{{ server }}"],
+    ["qualify_frequency", "60"]
+  ],
+  "identify_section_options": [
+    ["match_header", "X-Wazo-Customer-ID: {{ username }}"],
+    ["srv_lookups", "yes"],
+    ["match", "{{ server }}"]
+  ]
+}
