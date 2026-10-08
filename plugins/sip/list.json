@@ -202,6 +202,16 @@
       "mainColor": "#F2F2F2"
     },
     {
+      "name": "Leonix",
+      "version": "1.0",
+      "slug": "leonixv1",
+      "url": "https://www.leonix.fr",
+      "country": "FR",
+      "url_doc": null,
+      "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/leonixv1/logo.svg",
+      "mainColor": "#F2F2F2"
+    },
+    {
       "name": "Linkt",
       "version": "0.1",
       "slug": "linktv1",
