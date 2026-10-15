@@ -12,10 +12,10 @@
         ["set_var", "PJSIP_HEADER(add,P-Preferred-Identity)=<sip:{{ username }}@{{ server }}>"]
     ],
     "registration_section_options": [
-        ["expiration", "600"],
+        ["expiration", "300"],
         ["line", "yes"],
-        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
-        ["server_uri", "sip:{{ server }}:5060"],
+        ["client_uri", "sip:{{ username }}@{{ server }}"],
+        ["server_uri", "sip:{{ server }}"],
         ["contact_user", "{{ username }}"]
     ],
     "registration_outbound_auth_section_options": [
@@ -27,7 +27,7 @@
         ["password", "{{ password }}"]
     ],
     "aor_section_options": [
-        ["contact", "sip:{{ username }}@{{ server }}:5060"],
+        ["contact", "sip:{{ username }}@{{ server }}"],
         ["qualify_frequency", "10"]
     ]
 }
