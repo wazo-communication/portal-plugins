@@ -36,12 +36,13 @@
         { "language": "en_US", "value": "SIP server" }
       ],
       "required": true,
-      "default": "sbc01mlb.bsip.genbte.com",
+      "default": "mlb.bsip.genbte.com",
       "choices": [
-        "sbc01mlb.bsip.genbte.com",
-        "sbc02mlb.bsip.genbte.com",
+        "mlb.bsip.genbte.com",
         "bie.bsip.genbte.com",
-        "mlb.bsip.genbte.com"
+        "sbc01mlb.bsip.genbte.com",
+        "sbc01bie.bsip.genbte.com",
+        "sbc02mlb.bsip.genbte.com"
       ]
     }
   ]
